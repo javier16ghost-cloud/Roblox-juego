@@ -1,0 +1,15 @@
+{
+  "name": "Roblox-juego",
+  "tree": {
+    "$className": "DataModel",
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterCharacterScripts": {
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
+      }
+    },
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    }
+  }
+}
