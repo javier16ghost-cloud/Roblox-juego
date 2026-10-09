@@ -1,1 +1,0 @@
-print("¡Hola! Mi primer script en Rojo")
