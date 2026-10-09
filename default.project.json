@@ -4,26 +4,15 @@
     "$className": "DataModel",
     "ServerScriptService": {
       "$className": "ServerScriptService",
-      "children": [
-        {
-          "$path": "src/ServerScriptService"
-        }
-      ]
+      "Arbol": {
+        "$path": "src/ServerScriptService/Arbol.server.lua"
+      }
     },
     "StarterPlayer": {
       "$className": "StarterPlayer",
       "StarterCharacterScripts": {
-        "$className": "StarterCharacterScripts",
-        "children": [
-          {
-            "$path": "src/StarterPlayer/StarterCharacterScripts"
-          }
-        ]
+        "$className": "StarterCharacterScripts"
       }
     }
-  },
-  "globIgnorePaths": [
-    "**/.git",
-    "**/.gitkeep"
-  ]
+  }
 }
