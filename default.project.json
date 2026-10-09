@@ -2,14 +2,28 @@
   "name": "Roblox-juego",
   "tree": {
     "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "children": [
+        {
+          "$path": "src/ServerScriptService"
+        }
+      ]
+    },
     "StarterPlayer": {
       "$className": "StarterPlayer",
       "StarterCharacterScripts": {
-        "$path": "src/StarterPlayer/StarterCharacterScripts"
+        "$className": "StarterCharacterScripts",
+        "children": [
+          {
+            "$path": "src/StarterPlayer/StarterCharacterScripts"
+          }
+        ]
       }
-    },
-    "ServerScriptService": {
-      "$path": "src/ServerScriptService"
     }
-  }
+  },
+  "globIgnorePaths": [
+    "**/.git",
+    "**/.gitkeep"
+  ]
 }
